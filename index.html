@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML lists, Tables, Forms</title>
+</head>
+<body>
+    
+<h2>Ordered Lists</h2>
+<ol type ="a" start="1">
+
+    <li>Kenya</li>
+    <li>Uganda</li>
+    <li>Tanzania</li>
+</ol>
+
+
+<h2>Images</h2>
+
+<h3>External Images</h3>
+<img src="https://images.pexels.com/photos/31120018/pexels-photo-31120018/free-photo-of-steaming-coffee-beans-in-cup-and-sack.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" height="300" width="300"<br>
+
+
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Vicky Blessings</td>
+        <td>Muthiga</td>
+        <td>0794018071</td>
+        <td>marthyvickyblessing@gmail.com</td>    
+    </tr>
+    <tr>
+        <td>Harry Brown</td>
+        <td>Kiambu</td>
+        <td>0787654321</td>
+        <td>harrybrown@gmail.com</td>
+    </tr>
+  <tr>
+    <td>Susan Njeri</td>
+    <td>Kirinyaga</td>
+    <td>0787655621</td>
+    <td>susannjeri@gmail.com</td>
+  </tr>
+<tr>
+    <td>Hadija Said</td>
+    <td>Mombasa</td>
+    <td>0787634567</td>
+    <td>hadijasaid@gmail.com</td>
+  </tr>
+<tr>
+    <td>Amos Otieno</td>
+    <td>Kisumu</td>
+    <td>0721674321</td>
+    <td>amosotieno@gmail.com</td>
+  </tr>
+</table>
+
+<h2>Registration Form</h2>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+
+    <input type="checkbox" id="agree" name="agree" required>
+    <label for="agree">I agree to the terms and conditions</label><br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
